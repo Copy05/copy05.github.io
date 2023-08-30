@@ -1,61 +1,332 @@
 @font-face {
-    font-family: "Monoserrat";
-    src: url('./fonts/Montserrat-Bold.ttf');
+    font-family: "Aoboshi";
+    src: url('./fonts/AoboshiOne-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "VollkornSC";
+    src: url('./fonts/VollkornSC-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Julius";
+    src: url('./fonts/JuliusSansOne-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Koulen";
+    src: url('./fonts/Koulen-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DarkerGrote";
+    src: url('./fonts/DarkerGrotesque-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dela";
+    src: url('./fonts/DelaGothicOne-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Motivational";
+    src: url('./fonts/Cinzel-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Motivational-Bold";
+    src: url('./fonts/Cinzel-Bold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FancySerif";
+    src: url('./fonts/PlayfairDisplay-Regular.ttf');
+    font-display: swap;
+}
+
+:root {
+    --White: rgb(210, 210, 210);
+    --Gold: rgb(224, 187, 117);
+    --Black: rgb(30, 30, 30);
 }
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body {
-    background: black;
+div {
+    scroll-behavior: smooth;
 }
+
+body {
+    background: rgb(10, 10, 10);
+}
+
+li {
+    list-style-type: none
+}
+
+/* Scroll-Bar */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(30, 30, 30);
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+/* Header */
+
+header {
+    background: var(--White);
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > li, a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.1s;
+    color: var(--Black);
+    font-family: "Motivational";
+}
+
+.logo, .logo:visited {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+    color: var(--Black);
+    font-family: "VollkornSC";
+}
+
+.logo:hover {
+    opacity: 50%;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.contactlink {
+    border-radius: 69px;
+    padding: 10px 20px;
+    background: rgb(50, 50, 50);
+    color: var(--White);
+}
+
+/* Mobile NavBar */
+
+#mnb-hamburger {
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+#mnb-hamburger-btn {
+    transition: 0.1s all;
+    font-family: "DarkerGrote";
+}
+
+#mobilenavbar {
+    transition: 0.1s all;
+}
+
+.mnb_links {
+    display: none;
+    background: var(--White);
+}
+
+.mnb-link {
+    padding: 5px 10px;
+    display: block;
+    color: var(--Black);
+}
+
+.mnb-contactlink {
+    background: rgb(50, 50, 50);
+    color: var(--White);
+}
+
+/* 404 */
+
+#fourofour {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.foftxt {
+    font-family: "Koulen";
+    font-size: 50px;
+}
+
+.fofttxt {
+    font-family: "Aoboshi";
+    font-size: 16px;
+}
+
+.fofhref {
+    display: inline-block;
+    border: 1px var(--Gold) solid;
+    color: var(--Gold);
+    margin: 25px 150px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+/* Page */
 
 p {
-    color: white;
+    color: var(--White);
 }
 
-.center {
-    padding: 50px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    border-radius: 15px;
-    font-family: "Monoserrat";
+.mpbtxt {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Julius";
+    font-size: 50px;
+}
+
+.mainpagebg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.quotesbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://copy05.github.io/cdn/content/ai/Jesus_Having_A_Speech_1.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dtpagebg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_Generative_AI_Tools.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectxt {
+    font-size: 30px;
+    font-family: "Koulen";
+    padding: 20px 150px;
+}
+
+.ntxt {
+    font-family: "Aoboshi";
+    padding: 0px 150px;
+}
+
+.qntxt {
+    font-family: "DarkerGrote";
+}
+
+.qntxt > a {
+    color: var(--White);
+    text-decoration: underline;
+    font-family: "DarkerGrote";
+}
+
+.quotesheet {
+    padding: 5px 150px;
+    font-family: "Motivational";
+}
+
+.quotesdownload {
+    display: inline-block;
+    border: 1px var(--Gold) solid;
+    color: var(--Gold);
+    margin: 25px 150px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.mpbstxt {
+    font-size: 20px;
+    text-align: center; 
+    padding-bottom: 30px;
+    font-family: "DarkerGrote";
+}
+
+.graphs {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.graphnumber {
+    font-size: 55px;
+    font-family: "Koulen";
+}
+
+.graphtitle {
+    font-family: "Julius";
+    font-size: 18px;
+}
+
+.channels, .digitaltools {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.channel, .digitaltool {
+    height: 100px;
+    border-radius: 619px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
     background: rgb(20,20,20);
 }
 
-.centerhead {
+.copyright {
+    margin: 20px 0px;
+    font-size: 18px;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-family: "Motivational";
+    color: var(--White);
 }
 
-.centertext {
-    margin-bottom: 10px;
+.socials {
+    text-align: center;
+    display: flex;
 }
 
-.sitehref, .sitehref:visited {
-    color: white;
-}
-
-@media only screen and (max-width: 600px) {
-    .center {
-        transform: translate(-0%, -50%);
-        left: 0%;
-        margin: 0px 15px;
-    }
-
-    .centerhead {
-        text-align: center;
-        font-size: 18px;
-    }
-
-    .centertext {
-        text-align: center;
-        font-size: 14px;
-    }
+.sociallink {
+    flex: 1;
 }

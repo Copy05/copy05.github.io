@@ -1,0 +1,72 @@
+@media only screen and (max-width: 800px) {
+    
+    /* Header */
+
+    header {
+        padding: 20px 40px;
+    }
+
+    .logo {
+        display: inline-block;
+        line-height: 40px;
+    }
+
+    .contactlink {
+        padding: 0px !important;
+        background: transparent !important;
+        color: rgb(30, 30, 30);
+    }
+
+    .nav_links li {
+        padding: 0px 10px;
+    }
+
+    /* Mobile NavBar */
+
+    .dktl {
+        display: none;
+    }
+
+    #mnb-hamburger {
+        display: flex;
+        font-size: 30px !important;
+    }
+
+    .mnb_links {
+        display: block;
+    }
+
+    /* Page */
+
+    .mainpagebg, .quotesbg {
+        padding: 0px 10px;
+    }
+
+    .mpbtxt {
+        font-size: 18px;
+    }
+
+    .sectxt {
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .ntxt, .quotesheet {
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+
+    .quotesheet {
+        margin: 10px 0px;
+    }
+
+    .quotesdownload {
+        display: none;
+    }
+
+    /* Footer */
+
+    .copyright {
+        font-size: 12px;
+    }
+}
