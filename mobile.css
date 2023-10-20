@@ -64,6 +64,10 @@
         display: none;
     }
 
+    .digitaltool {
+        height: 60px !important;
+    }
+
     /* Footer */
 
     .copyright {

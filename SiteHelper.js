@@ -30,7 +30,7 @@ const MobileNavBarHTML = `
 `
 
 const FooterHTML = `
-        <p class="copyright">&copy; Copyright 2022 - ${new Date().getFullYear().toString()} CopyWealth. All Rights Reserved.</p>
+        <p class="copyright">&copy; Copyright CopyWealth, ${new Date().getFullYear().toString()}.</p>
 
         <div class="socials">
             <a href="https://www.youtube.com/@CopyWealth" class="sociallink"><img class="footersocial" alt="CopyWealth Youtube Link" src="https://copy05.github.io/Portfolio/pics/youtubelogo.png" height="30"></a>

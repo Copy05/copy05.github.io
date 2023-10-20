@@ -299,7 +299,7 @@ p {
 .channels, .digitaltools {
     text-align: center;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 .channel, .digitaltool {
