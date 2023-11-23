@@ -302,6 +302,10 @@ p {
     grid-template-columns: auto auto auto auto;
 }
 
+.channels {
+    grid-template-columns: auto auto;
+}
+
 .channel, .digitaltool {
     height: 100px;
     border-radius: 619px;
