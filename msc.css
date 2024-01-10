@@ -34,12 +34,14 @@ body {
     text-align: center;
     padding: 20px 0;
     font-size: 60px;
+    color: white;
 }
 
 .catagory {
     font-family: "Koulen";
     margin: 20px 0 20px 70px;
     font-size: 25px; 
+    color: white;
 }
 
 .l-sites {
