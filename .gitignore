@@ -2,3 +2,6 @@
 ./src
 index.js
 contact.html
+
+# AUTO-GENERATED
+.vscode
