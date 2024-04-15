@@ -343,3 +343,13 @@ footer {
 .sociallink {
     flex: 1;
 }
+
+/* Effects */
+
+.green-text-shadow {
+    text-shadow: 0 0 10px rgba(51, 255, 11, 0.9);
+}
+
+.red-text-shadow {
+    text-shadow: 0 0 10px rgba(255, 40, 40, 0.9);
+}

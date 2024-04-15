@@ -1,5 +1,6 @@
 /*
     SiteHelper by Entertainmasters
+    Concept by Copy05
 */
 
 const Footer = document.getElementById("footer")
