@@ -16,7 +16,7 @@ const HeaderHTML = `
         <li><a class="dktl" href="./index.html#about">About</a></li>
         <li><a class="dktl" href="./quotes.html">Quotes</a></li>
         <li><a class="dktl" href="./digital-tools.html">Digital Tools</a></li>
-        <li><a class="dktl contactlink" href="https://discord.gg/JSRHqSZ">Get in touch</a></li>
+        <li><a class="dktl contactlink" href="https://forms.gle/dJNGDHAcozxzZ5Xb9">Get in touch</a></li>
         <li id="mnb-hamburger"><a href="#" id="mnb-hamburger-btn">≡</a></li>
         </ul>
 `

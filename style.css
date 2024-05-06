@@ -92,6 +92,12 @@ li {
     border-radius: 5px;
 }
 
+/* KEK */
+
+.centre {
+    text-align: center;
+}
+
 /* Header */
 
 header {
@@ -342,6 +348,22 @@ footer {
 
 .sociallink {
     flex: 1;
+}
+
+.work-with-me:hover {
+    opacity: 1 !important;
+    background: rgb(70, 70, 70);
+}
+
+.work-with-me {
+    display: inline-block;
+    background: rgb(30, 30, 30);
+    font-family: "DarkerGrote";
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: 5px;
+    margin-bottom: 20px;
 }
 
 /* Effects */
