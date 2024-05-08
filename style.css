@@ -68,7 +68,7 @@ div {
     scroll-behavior: smooth;
 }
 
-body {
+body, .rule-body {
     background: rgb(10, 10, 10);
 }
 
@@ -374,4 +374,41 @@ footer {
 
 .red-text-shadow {
     text-shadow: 0 0 10px rgba(255, 40, 40, 0.9);
+}
+
+/* rule/{num} */
+
+.rc-img-1 {
+    background-image: url('./img/rc1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.rule-container {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 300px;
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.rule-head {
+    font-size: 52px;
+    font-family: "Motivational";
+    margin-bottom: 10px;
+}
+
+.rule-text {
+    font-size: 22px;
+    font-family: "Motivational";
+    margin-bottom: 5px;
+}
+
+.rule-sub-text {
+    font-size: 18px;
+    font-family: "DarkerGrote";
+}
+
+.rule-href, .rule-href:visited {
+    color: white !important;
 }
