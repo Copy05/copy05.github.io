@@ -412,3 +412,18 @@ footer {
 .rule-href, .rule-href:visited {
     color: white !important;
 }
+
+/* Work with me */
+
+.ntxt-dg {
+    font-family: "DarkerGrote";
+    padding: 0px 150px;
+}
+
+.cw-youtubes {
+    text-align: center;
+}
+
+.cw-youtube-embed {
+    margin: 20px;
+}

@@ -51,7 +51,7 @@
         text-align: center;
     }
 
-    .ntxt, .quotesheet {
+    .ntxt, .quotesheet, .ntxt-dg {
         font-size: 14px;
         padding: 0px 20px;
     }
@@ -72,5 +72,13 @@
 
     .copyright {
         font-size: 12px;
+    }
+
+    /* Work With Me */
+
+    .cw-youtube-embed {
+        width: 348px;
+        height: 196px;
+        margin: 10px;
     }
 }
