@@ -36,6 +36,12 @@
         display: block;
     }
 
+    /* KEK */
+
+    .desktop-flex {
+        display: block;
+    }
+
     /* Page */
 
     .mainpagebg, .quotesbg {
@@ -80,5 +86,9 @@
         width: 348px;
         height: 196px;
         margin: 10px;
+    }
+
+    .apply-boxes {
+        margin: 0;
     }
 }
