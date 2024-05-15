@@ -91,4 +91,8 @@
     .apply-boxes {
         margin: 0;
     }
+
+    .apply-box {
+        width: auto;
+    }
 }

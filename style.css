@@ -441,6 +441,7 @@ footer {
     border: rgb(80, 80, 80) 1px solid;
     border-radius: 5px;
     margin: 20px;
+    width: 720px;
 }
 
 .apply-box-title {
