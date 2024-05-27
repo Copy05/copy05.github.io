@@ -52,6 +52,14 @@
     font-display: swap;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}  
+
 :root {
     --White: rgb(210, 210, 210);
     --Gold: rgb(224, 187, 117);
@@ -100,6 +108,11 @@ li {
 
 .desktop-flex {
     display: flex;
+}
+
+.vert-centre {
+    display: flex;
+    align-items: center;
 }
 
 /* Header */
@@ -454,4 +467,8 @@ footer {
 .apply-box-txt {
     font-family: "DarkerGrote";
     font-size: 18px;
+}
+
+.apply-box-title > .vert-centre > .material-symbols-outlined {
+    margin-right: 10px;
 }
