@@ -26,7 +26,7 @@ const MobileNavBarHTML = `
     <a class="mnb-link" href="./index.html#about">About</a>
     <a class="mnb-link" href="./quotes.html">Quotes</a>
     <a class="mnb-link" href="./digital-tools.html">Digital Tools</a>
-    <li><a href="https://discord.gg/JSRHqSZ" class="mnb-contactlink mnb-link">Get in touch</a></li>
+    <li><a href="./apply.html" class="mnb-contactlink mnb-link">Work with me</a></li>
 </div>
 `
 
