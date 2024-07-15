@@ -95,4 +95,32 @@
     .apply-box {
         width: auto;
     }
+
+    /* --------------- [ EARNINGS ] ----------------- */
+    .earnings-poster-btn {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .earnings-title {
+        padding: 20px;
+        text-align: left;
+    }
+
+    .earnings-section-title {
+        padding: 0px 20px;
+    }
+
+    .earnings-text {
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+
+    .earnings-li {
+        padding: 0px 35px;
+    }
+
+    .earnings-statistics-image {
+        height: 200px;
+    }
 }

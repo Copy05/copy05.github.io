@@ -26,10 +26,7 @@ function getRawNumber(abbreviatedNumber) {
 }
 
 function CalculateRevenue(views){
-    const minRPM = 4;
-    const maxRPM = 12;
-
-    const averageRPM = (minRPM + maxRPM) / 2;
+    const averageRPM = 4;
 
     const revenue = (views / 1000) * averageRPM;
 

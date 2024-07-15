@@ -253,6 +253,14 @@ p {
     background-size: cover;
 }
 
+.earningsbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://moonback-hotelbeds.b-cdn.net/88/889713/889713a_hb_a_010.jpg?width=3840&quality=75');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .quotesbg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://copy05.github.io/cdn/content/ai/Jesus_Having_A_Speech_1.jpg');
     object-fit: cover;
@@ -478,4 +486,58 @@ footer {
 
 .apply-box-title > .vert-centre > .material-symbols-outlined {
     margin-right: 10px;
+}
+
+/* ---------------- [ EARNINGS ] --------------------- */
+
+.earnings-poster {
+    background: rgb(224, 187, 117);
+    padding: 7px 0;
+}
+
+.earnings-poster-text {
+    color: rgb(30, 30, 30);
+    font-family: "DarkerGrote";
+    text-align: center;
+}
+
+.earnings-poster-btn {
+    border: rgb(50, 50, 50) 1px solid;
+    font-size: 14px;
+    padding: 2px 10px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.earnings-poster-btn:hover {
+    background: rgb(155, 116, 40);
+    color: white;
+}
+
+.earnings-title {
+    font-family: "Motivational";
+    font-size: 40px;
+    padding: 20px 150px;
+}
+
+.earnings-section-title {
+    font-family: "Aoboshi";
+    padding: 0px 150px;
+    margin: 20px 0 5px 0;
+}
+
+.earnings-text {
+    font-family: "DarkerGrote";
+    padding: 0px 150px;
+}
+
+.earnings-li {
+    font-family: "DarkerGrote";
+    color: white;
+    padding: 0px 165px;
+}
+
+.earnings-statistics-image {
+    margin-top: 40px;
+    height: 660px;
 }
