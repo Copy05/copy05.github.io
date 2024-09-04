@@ -80,7 +80,7 @@
         font-size: 12px;
     }
 
-    /* Work With Me */
+    /* ----------------- [ Work With Me ] -----------------*/
 
     .cw-youtube-embed {
         width: 348px;
@@ -96,7 +96,7 @@
         width: auto;
     }
 
-    /* --------------- [ EARNINGS ] ----------------- */
+    /* ----------------- [ EARNINGS ] ----------------- */
     .earnings-poster-btn {
         display: inline-block;
         margin-top: 10px;
@@ -122,5 +122,20 @@
 
     .earnings-statistics-image {
         height: 200px;
+    }
+
+    /*  */
+
+    .career-page-big-text {
+        font-size: 24px;
+    }
+
+    .careerpagebg {
+        text-align: left;
+        padding: 50px 20px;
+    }
+
+    .career-postings {
+        padding: 10px 20px;
     }
 }

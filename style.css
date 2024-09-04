@@ -233,7 +233,14 @@ p {
     color: var(--White);
 }
 
-.mpbtxt {
+.mpbstxt, .career-page-text {
+    font-size: 20px;
+    text-align: center; 
+    padding-bottom: 30px;
+    font-family: "DarkerGrote";
+}
+
+.mpbtxt, .career-page-big-text {
     padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
@@ -241,8 +248,25 @@ p {
     font-size: 50px;
 }
 
+.career-page-text, .career-page-big-text {
+    text-align: left;
+}
+
+.career-page-big-text {
+    padding-top: 100px;
+}
+
 .mainpagebg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.careerpagebg {
+    padding: 100px 200px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/dfsasafgdasafasdf.png');
 }
 
 .mindsetpagebg {
@@ -312,12 +336,7 @@ p {
     border-radius: 4px;
 }
 
-.mpbstxt {
-    font-size: 20px;
-    text-align: center; 
-    padding-bottom: 30px;
-    font-family: "DarkerGrote";
-}
+
 
 .graphs {
     text-align: center;
@@ -488,7 +507,7 @@ footer {
     margin-right: 10px;
 }
 
-/* ---------------- [ EARNINGS ] --------------------- */
+/* --------------------- [ EARNINGS ] --------------------- */
 
 .earnings-poster {
     background: rgb(224, 187, 117);
@@ -540,4 +559,50 @@ footer {
 .earnings-statistics-image {
     margin-top: 40px;
     height: 660px;
+}
+
+/* Career Site */
+
+.career-posting {
+    padding: 10px 30px;
+    border: rgb(80, 80, 80) 1px solid;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.career-props {
+    color: white;
+}
+
+.openprop {
+    font-family: "DarkerGrote";
+    color: white;
+    font-size: 16px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+}
+
+.openprop > .material-symbols-outlined {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.career-title {
+    font-family: "Motivational";
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: rgb(224, 187, 117);
+} 
+
+.career-title > .vert-centre > .material-symbols-outlined {
+    margin-right: 10px;
+}
+
+.career-postings {
+    padding: 10px 150px
+}
+
+.career-field {
+    font-family: "Aoboshi";
 }
