@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fading ease-in 0.75s;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .cwre-text {
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .gold-text {
+            background-image: linear-gradient(90deg, rgb(255, 204, 105) 2.68%, rgb(253, 229, 182) 61.25%, rgb(255, 221, 155) 104.69%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes fading {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <div class="center">
+        <img src="https://avatars.githubusercontent.com/u/180153554?s=200&v=4" alt="CWRE" class="cwre_icon">
+        <p class="cwre-text gold-text">CWRE (CopyWealth Real Estates) Not anytime soon.</p>
+    </div>
+</body>
+</html>
