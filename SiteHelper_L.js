@@ -38,7 +38,7 @@ const FooterHTML = `
             <a href="https://twitter.com/CopyWealthiest" class="sociallink"><img class="footersocial" alt="CopyWealth Twitter Link" src="https://copy05.github.io/Portfolio/pics/twitterlogo.png" height="30"></a>
             <a href="https://discord.gg/JSRHqSZ" class="sociallink"><img class="footersocial" alt="CopyWealth Discord Link" src="https://copy05.github.io/Portfolio/pics/discordlogo.png" height="40"></a>
             <a href="https://instagram.com/copywealthy" class="sociallink"><img class="footersocial" alt="CopyWealth Instagram Link" src="https://copy05.github.io/Portfolio/pics/instagramlogo.png" height="30"></a>
-            <a href="https://www.tiktok.com/@copywealth" class="sociallink"><img class="footersocial" alt="CopyWealth Tiktok Link" src="https://entertainmasters.github.io/src/tiktoklogo.png" height="30"></a>
+            <a href="https://www.tiktok.com/@copywealth" class="sociallink"><img class="footersocial" alt="CopyWealth Tiktok Link" src="https://entertainmasters.com/src/tiktoklogo.png" height="30"></a>
             <a href="https://github.com/Copy05" class="sociallink"><img class="footersocial" alt="CopyWealth Tiktok Link" src="https://copy05.github.io/Portfolio/pics/githubicon.png" height="30"></a>
         </div>
 `
